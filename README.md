@@ -66,7 +66,7 @@ FIGURE -03
 
 
 
-PROGRAM :
+##PROGRAM :
 Name: MEENA.S
 Register Number:212221240028
 '''
@@ -100,13 +100,13 @@ void loop()
 
 
 
-Output of the simulation :
+##Output of the simulation :
 
-BEFORE RUNNING THE SIMULATION:
+##BEFORE RUNNING THE SIMULATION:
 ![Screenshot (61)](https://user-images.githubusercontent.com/94677128/187256132-e71ecf5d-caca-4dd8-8bcf-85d8fe615158.png)
 
-AFTER RUNNING THE SIMULATION:
+##AFTER RUNNING THE SIMULATION:
 ![Screenshot (60)](https://user-images.githubusercontent.com/94677128/187255976-35acacaf-6c50-4e0c-af79-c980acfabb8f.png)
 
-Result:
+##Result:
 Thus, we have interfaced a digital input (push button) and blink of LED upon activation.
