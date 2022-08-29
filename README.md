@@ -66,8 +66,32 @@ FIGURE -03
 
 
 
-PROGRAM 
- 
+PROGRAM :
+Name: MEENA.S
+Register Number:212221240028
+ // C++ code
+
+int ledpin=4;
+int pushbutton=2;
+int val=0;
+void setup()
+{
+  pinMode(ledpin, OUTPUT);
+  pinMode(pushbutton, OUTPUT);
+}
+
+void loop()
+{
+  val = digitalRead(pushbutton);
+  if(val==0)
+  {
+    digitalWrite(ledpin,HIGH);
+  }
+  else
+  {
+    digitalWrite(ledpin,LOW);
+  }
+}
  
  
  
@@ -77,5 +101,8 @@ PROGRAM
 
 Output of the simulation :
 
-[My image](username.github.com/repository/img/image.jpg)
+BEFORE RUNNING THE SIMULATION:
+![Screenshot (61)](https://user-images.githubusercontent.com/94677128/187256132-e71ecf5d-caca-4dd8-8bcf-85d8fe615158.png)
 
+AFTER RUNNING THE SIMULATION:
+![Screenshot (60)](https://user-images.githubusercontent.com/94677128/187255976-35acacaf-6c50-4e0c-af79-c980acfabb8f.png)
