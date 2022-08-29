@@ -69,6 +69,7 @@ FIGURE -03
 PROGRAM :
 Name: MEENA.S
 Register Number:212221240028
+'''
  // C++ code
 
 int ledpin=4;
@@ -93,7 +94,7 @@ void loop()
   }
 }
  
- 
+ '''
  
  
 
@@ -106,3 +107,6 @@ BEFORE RUNNING THE SIMULATION:
 
 AFTER RUNNING THE SIMULATION:
 ![Screenshot (60)](https://user-images.githubusercontent.com/94677128/187255976-35acacaf-6c50-4e0c-af79-c980acfabb8f.png)
+
+Result:
+Thus, we have interfaced a digital input (push button) and blink of LED upon activation.
